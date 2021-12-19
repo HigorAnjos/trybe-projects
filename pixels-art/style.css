@@ -1,0 +1,52 @@
+.color
+{
+    border: black solid 1px;
+    padding: 25px;
+}
+.pixel
+{
+    border: black solid 1px;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+}
+.color-1
+{
+    background-color: black;
+
+}
+.color-2
+{
+    background-color: #FF7800;
+}
+.color-3
+{
+    background-color: #FFD57A;
+}
+.color-4
+{
+    background-color: #A200FF;
+}
+#color-palette
+{
+    margin-bottom: 30px;
+}
+
+.row
+{
+    display: flex;
+}
+
+#color-palette
+{
+    display: flex;
+}
+button
+{
+    margin: 10px 0;
+}
+#botoes
+{
+    display: flex;
+    align-items: center;
+}

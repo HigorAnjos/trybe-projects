@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  flex-grow: 1;
+  justify-content: space-between;
+  padding: 0 15px;
+  color: white;
+  align-items: center;
+}
+
+/* .trybewarts-header-logo {
+} */
+
+.trybewarts-header-logo {
+  height: 60px;
+}
+
+.trybewarts-login {
+  display: flex;
+  align-items: center;
+}
+
+/* .trybewarts-header-title{
+} */
+
+.breakLineForm {
+  display: flex;
+  flex-grow: 1;
+
+  /* border: black solid 2px; */
+  margin-top: 10px;
+}
+
+.breakLineForm2 {
+  display: flex;
+  flex-direction: column;
+
+  /* border: blue solid 2px; */
+  flex-grow: 1;
+
+}
+
+#first-questions {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.first-questions {
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#titulo {
+
+  /* border: red solid 2px; */
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+#main-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 50px;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+}
+
+#button {
+  display: flex;
+}
+
+#submit-btn {
+  flex-grow: 1;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
+#evaluation {
+  display: flex;
+
+  /* border: 2px solid yellow; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+#textarea {
+
+  /* border: 2px solid green; */
+  padding-top: 50px;
+}
+
+#counter {
+  text-align: right;
+}
+
+header input {
+  margin-right: 30px;
+}
+
+#evaluation-form .breakLineForm input {
+  margin-right: 30px;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  flex-grow: 1;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* Source: https://www.w3schools.com/howto/howto_css_fixed_footer.asp */
+footer {
+  background-color: grey;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+
+}
+

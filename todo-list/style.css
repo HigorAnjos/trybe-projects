@@ -1,0 +1,64 @@
+.completed {
+    text-decoration: line-through solid rgb(0, 0, 0);
+}
+body
+{
+    background-color: #e1eff6;
+
+}
+main 
+{
+    background-color: #5D737E;
+    color: white;
+    padding: 15px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+#botoes
+{
+    display: flex;
+    justify-content: space-between;
+}
+#menu
+{
+    display: flex;
+    justify-content: space-between;
+}
+#menu button
+{
+    width: 80px;
+}
+input
+{
+    width: 83%;
+}
+header
+{
+    text-align: center;
+}
+header h1
+{
+    margin-bottom: 0;
+}
+#funcionamento
+{
+    margin-bottom: 30px;    
+}
+ol
+{
+    border-style: dashed;
+    border-color: #96D9C5;
+}
+button
+{
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    background-color: #CFCCD6;
+    color: black;
+    font-size: 10px;
+    font-family: "Lato", sans-serif;
+    padding: 5px;
+}

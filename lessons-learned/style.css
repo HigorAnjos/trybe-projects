@@ -1,0 +1,140 @@
+body {
+  background-color: rgb(253, 251, 251);
+  top: 0;
+  margin: 0;
+  padding: 0;
+}
+
+#cabecalho {
+  position: fixed;
+  margin-top: 0;
+  height: 200px;
+  width: 100%;
+  background-color: green;
+}
+
+#cabecalho h1 {
+  color: white;
+  font-size: 50px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+nav {
+  font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav li {
+  text-decoration: none;
+  list-style: none;
+  font-size: 1.5rem;
+  margin: 5px;
+}
+
+#minha_foto {
+  width: 250px;
+  height: 250px;
+  margin-top: 214px;
+  margin-left: 20px;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.higor {
+  color: black;
+  font-size: 1.5rem;
+  margin-top: 5px;
+  padding-left: 50px;
+}
+
+.listas {
+  margin-top: 50px;
+  font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
+}
+
+.listas h2 {
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+
+#flex-listas {
+  display: flex;
+  padding: 5px;
+  margin: 10px;
+}
+
+#licoes_aprendidas {
+  padding-left: 30px;
+}
+
+#licoes_a_aprender {
+  margin-left: 30px;
+}
+
+#aprendizado-sobre-mim {
+  display: flex;
+  margin-left: 30px;
+  box-sizing: border-box;
+  margin-top: 30px;
+}
+
+#aprendizado {
+  display: flex;
+  flex-direction: column;
+  border-style: dotted;
+  margin-right: 20px;
+}
+
+#aprendizado h1 , #sobre-mim h1 {
+  padding: 5px;
+}
+
+#aprendizado p , #sobre-mim p {
+  padding: 5px;
+}
+
+#sobre-mim {
+  display: flex;
+  flex-direction: column;
+  border-style: dotted;
+  margin-right: 20px;
+}
+
+section footer {
+  margin-top: 30px;
+  height: 25px;
+  background-color: green;
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+#rodape span a {
+  font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+.lado-esquerdo , .lado-direito {
+  line-height: 20px;
+}
+
+table {
+  border: 1px;
+  border-style: dotted;
+  margin: 20px auto;
+  line-height: 20px;
+}
+
+th , td {
+  padding-left: 10px;
+  line-height: 20px;
+}
